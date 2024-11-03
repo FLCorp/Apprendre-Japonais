@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+textarea {
+    width: 100%;
+}
+
+.kana-inexistant{
+    visibility: hidden;
+}
+
+.boards{
+    display: flex;
+}
+
+@media screen and (max-width : 426px){
+    .boards{
+        display: inherit;
+    }
+}
