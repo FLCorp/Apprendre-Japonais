@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Japonais</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+
+    <div class="quiz-header">
+        <h1>Quiz</h1>
+        <br>
+        <button id="backToMain" class="back-button">Retour à la page principale</button>
+    </div>
+
+    <div class="quiz-container">
+        <p id="kanaDisplay" class="kana-display">あ</p>
+
+        <input type="text" id="romajiInput" class="romaji-input" placeholder="Entrez le romaji ici">
+
+        <button id="submitAnswer" class="submit-button">Soumettre</button>
+
+        <p id="feedback" class="feedback"></p>
+
+        <!-- Nouveau bouton pour démarrer l'évaluation -->
+        <button id="startEvaluation" class="evaluation-button">Lancer l'évaluation (2 minutes)</button>
+
+        <!-- Compteur pour le décompte de 5 secondes -->
+        <p id="countdown" class="countdown" style="display:none;"></p>
+
+        <!-- Timer visible pendant l'évaluation -->
+        <p id="evaluationTimer" class="evaluation-timer" style="display:none;">02:00</p>
+        
+        <!-- Zone de résultat pour afficher les kana mal reconnus -->
+        <div id="resultContainer" class="result-container">
+            <h2>Résultat de l'évaluation</h2>
+            <p id="resultMessage"></p>
+        </div>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>

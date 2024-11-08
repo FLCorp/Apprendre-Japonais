@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quiz-header {
+    text-align: center;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+}
+
+.back-button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.kana-display {
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+.romaji-input {
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.submit-button {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.feedback {
+    margin-top: 20px;
+    font-size: 18px;
+    color: red;
+}
+
+.evaluation-button {
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.countdown {
+    font-size: 24px;
+    color: red;
+    margin-top: 10px;
+}
+
+.evaluation-timer {
+    font-size: 24px;
+    color: green;
+    margin-top: 10px;
+}
+
+.result-container {
+    display: none;
+    margin-top: 20px;
+}
+
+#resultMessage {
+    font-size: 18px;
+    color: red;
+}
